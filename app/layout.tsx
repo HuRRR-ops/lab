@@ -8,7 +8,7 @@ const prefix = process.env.NODE_ENV === 'production' ? '/lab' : ''
 export const metadata: Metadata = {
   metadataBase: new URL('https://hurrr-ops.github.io/lab/'),
   title: 'HuRRR LAB — L’instinct de créer. La puissance de l’IA.',
-  description: 'Un laboratoire numérique indépendant. Projets, vibe coding et expérimentations à la rencontre du code et de l’intelligence artificielle.',
+  description: 'Explorez HuRRR Lab : un laboratoire créatif indépendant, un noyau 3D interactif et des expérimentations à la rencontre du code et de l’intelligence artificielle.',
   icons: { icon: `${prefix}/mark.svg` },
   openGraph: { title: 'HuRRR LAB', description: 'L’instinct de créer. La puissance de l’IA.', locale: 'fr_FR', type: 'website', images: [`${prefix}/images/core.png`] },
 }
